@@ -142,7 +142,9 @@ jobs:
             "webapps/appservice/102-appservice-slots",
             "webapps/appservice/103-appservice-extend",
             "webapps/appservice/104-appservice-appinsight",
-            "webapps/appservice/105-appservice-backup"
+            "webapps/appservice/105-appservice-backup",
+            "networking/load_balancers/100-simple-load-balancer-basic-sku",
+            "networking/load_balancers/101-load-balancer-with-rules"
             # "networking/virtual_wan/102-vwan-multi-hubs-gw",
           ]
 
