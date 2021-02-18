@@ -33,7 +33,6 @@ resource "azurerm_lb" "lb" {
 
 resource "azurerm_lb_backend_address_pool" "backend_address_pool" {
 
-  resource_group_name = var.resource_group_name
   loadbalancer_id     = azurerm_lb.lb.id
   name                = var.settings.backend_address_pool_name
 }
